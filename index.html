@@ -1,17 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/stylesheet.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link in Bio</title>
-</head>
-<body>
-    <div class="container">
-        <div class="profile">
-            <img src="/images/ME.png" alt="Natasha Williams" class="profile-picture">
-            <h1>Natasha Williams</h1>
-            <p>Front-End Developer</p>
+<html "lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        
+    <title>Natasha Williams NATiiCODES</title>
+
+    </head>
+
+    <style>
+    :root {
+        --bluegray--: #ffffff;
+
+     }
+
+     body {
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 300;
+         color:rgb(255, 250, 250);
+         background-color:#1f4360;
+
+
+     }
+    
+     .profile-picture {
+         width: 250px;
+         height: 200px; 
+         border-radius: 50%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         background-position: center;
+         border: 3px solid;
+         margin: 0 10px var(--bluegray--);
+         align-items: center;
+        float: left;
+
+     }
+
+
+
+     .buttons {
+         background-color: #ffffff;
+         font-size: 20px;
+         border-radius: 50%;
+         border: black;
+
+
+     }
+
+     #page-home {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 60px;
+     }
+     .profile-text h1 {
+         font-family:Arial, Helvetica, sans-serif;
+         font-weight: 900;
+         margin-top: 0.5em;
+         font-size: 2em;
+         
+         
+     }
+
+     .page-body {
+         padding: 0 20px;
+         max-width: 520px;
+     }
+
+     .linkage {
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         margin-top: 40px;
+         text-align: center;
+         display: flex;
+         justify-content: space-evenly;
+     }
+
+     .linkage .social {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-decoration: none;
+         font-weight: 400;
+         color:rgb(255, 251, 251);
+     }
+
+     .linkage .icon {
+         height: 90px;
+         width: 90px;
+         border-radius: 50%;
+         margin-bottom: 10px;
+         background-color:rgb(255, 255, 255); 
+     }
+
+     .label {
+         padding: 0px 5px 0px 5px;
+         margin-left: 5px;
+         margin-right: 5px;
+     }
+
+     @media screen and (max-width: 400px) {
+         .linkage .icon {
+             height: 64px;
+             width: 64px;
+         }
+     }
+
+    </style>
+
+    <body>
+        <div id="app"> 
+            <div id="page-home">
+                <div>
+
+                <img src="images/ME.png" alt="Natasha Williams" class="profile-picture">
+                
+
+                </div>
+                <div class="profile-text">
+                    
+                    <h1> Hello </h1>
+                    <h2> I am Natasha Williams </h2>
+                </div>
+            <div class="page-body">  
+        <div class="about">
+
+                I am a self-thaught Full-Stack Web Developer, with a background in building website on Shopify.
+                
         </div>
 
         <div class="links">
